@@ -6,11 +6,11 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "6512203812:AAFTZDsjqVAfZnqOjP7CpyvJwqcPgu2rf7U"
+BOT_TOKEN = ""
 
-CHANNEL_ID = -1002048478233 
+CHANNEL_ID = 
 
-GROUP_ID = -4122888958 
+GROUP_ID = 
 
 
 async def forward_message(update: Update, context: Application):
